@@ -1,17 +1,25 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+border-radius: 0px;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+body{
+  background-color:#C69872;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.sup{
+  background-color: #391C05;
+  color: #F19953 ;
+}
+
+.navb {
+  padding-top: 0px;
+  background-color: #391C05;
+  color: #F19953;
+  text-align: center;
 }
 
 a {
@@ -70,17 +78,18 @@ button:focus-visible {
 
 .padre {
   display: grid;
+  padding-left: 0px;
+  padding-right: 0px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr ;
-  column-gap: 10px;
-  row-gap: 15px;
+  column-gap: 50px;
+  row-gap: 35px;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
 
 }
 
-.hijos {
+.casillero {
 
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 20px;
@@ -90,4 +99,9 @@ img {
   max-width: 250px;
   max-height: 250px;
   border:black 2px solid;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

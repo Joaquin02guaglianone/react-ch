@@ -1,633 +1,193 @@
 import Titulo from "./titulo";
+import { ItemCount } from "./compra";
+import { producto } from "./productos";
 
-export function Items() {
+
+export function Items(productos) {
+
+const producto = () => {[
+    {id:1, precio:5000, nombre:"remera Negra"},
+    {id:2, precio:6000, nombre:"pantalon negro"},
+    {id:3, precio:7000, nombre:"zapatilla blanca"},
+    {id:4, precio:4000, nambre:"aritos de acero Q"}
+]}
 
     return (
-    <div className='items'>
+    <>
 
 <    Titulo subtitulo="Remeras"/>
 
       <div className="padre">
 
-  <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-
-
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-
-          </div>
-  
-          <Titulo subtitulo="Pantalones"/>
+       <li>
+        <ul>
+           <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p>
+              <ItemCount/>
+           </div>
+        </ul>
+       </li>
        
-           <div className="padre">
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
 
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
 
-          </div>
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
 
-          <Titulo subtitulo="Calzado"/>
-  
-          <div className="padre">
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
 
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
 
-          </div>
-  
-          <Titulo subtitulo="Accesorios"/>
+         </div>
 
-          <div className="padre">
+         <h2>Pantalones</h2>
+
+         <div className="padre">
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+         </div>
+
+         <h2>Calzados</h2>
+
+         <div className="padre">
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+          <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+          <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+          <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+         </div>
+
+       <h2>Accessorios</h2>
+
+         <div className="padre">
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+        <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+          <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+          <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       <li>
+        <ul>
+          <div className="hijo"><img src="" alt="remera negra" /> <p>Remera Puma Negra $6000</p><ItemCount></ItemCount></div>
+        </ul>
+       </li>
+
+       </div>
+
+        </>
+        
   
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-  
-          <div class="hijos imagen2">
-            <img src="" alt="Imagen de ropa" />
-          </div>
-  
-          <div class="hijos texto">
-            <p>
-              ropa ($145)
-            </p>
-          </div>
-  
-   <div class="hijos texto">
-            <button id="ARpoa">
-              <p>
-                Agregar a la lista
-              </p>
-            </button>
-            <button id="QRopa">
-              <p>
-                Quitar de la lista
-              </p>
-            </button>
-          </div>
-  
-          </div>
-  
-    </div>
-  
-    )
-  
+  )
   }
   
